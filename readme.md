@@ -1,4 +1,4 @@
-# Demo of search engine with Elasticsearch.
+# Demo search engine with Elasticsearch.
 
 # Quick start 
 
@@ -57,3 +57,7 @@ http://localhost:3000/?q=him+his+projection
 ![Alt][1]
 
 [1]: /demo.jpg "Title"
+
+# Flow
+
+index.js -> connect.js -> search.js -> index.js -> views/index.handlebars
